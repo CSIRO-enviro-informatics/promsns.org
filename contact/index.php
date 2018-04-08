@@ -4,7 +4,7 @@
     include $root_path . 'theme/header.inc';
 ?>
 
-<h1>About promsns.org</h1>
+<h1>Contact</h1>
 <p>The lead developer of all things promsns.org:</p>
 
 <p>
