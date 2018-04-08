@@ -1,5 +1,4 @@
-<a href="http://www.csiro.au">CSIRO</a>
-<a href="/">PROMS-NS Home</a>
+<a href="/">Home</a>
 <a href="https://show.promsns.org/def/">def/</a>
 <a href="/inferencing">Inferencing</a>
 <a href="https://validator.promsns.org">Validator</a>
