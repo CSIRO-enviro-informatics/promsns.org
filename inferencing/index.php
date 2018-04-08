@@ -1,6 +1,7 @@
 <?php
-$main_menu_file = '../nav.inc';
-include '../theme/template-header.inc';
+    $title = 'Inferencing';
+    $root_path = '../';
+    include $root_path . 'theme/header.inc';
 ?>
 
 <h1>Inferencing Stacks</h1>
@@ -163,7 +164,7 @@ include '../theme/template-header.inc';
             <td>Query1:11 results (DL, QL, RL, SL) with order different for DL, 4 results (EL, NONE, RDFS). Query2:7 results (DL) with two duplicates (James2,Cathy) otherwise same as EL, 5 results (EL, RL, SL) with order different for EL, 0 results (NONE, QL, RDFS)</td>
         </tr>
         <tr>
-            <td><a href="protege.stanford.edu">Protege</a></td>
+            <td><a href="https://protege.stanford.edu/">Protégé</a></td>
             <td>Protege uses Java and it runs it's own Java application to do everything, no programming is required. Protege 5.2.0 comes with Java jre version 1.8.0_40 - Java SE Runtime environment build 1.8.0_40-b26</td>
             <td>Memory, application has ability to load a .ttl or .owl file</td>
             <td>Protege has it's own system with the ability to use plugins for various reasoners</td>
@@ -179,4 +180,4 @@ include '../theme/template-header.inc';
     </tbody>
 </table>
 
-<?php include '../theme/template-footer.inc'; ?>
+<?php include $root_path . 'theme/footer.inc'; ?>

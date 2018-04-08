@@ -1,9 +1,12 @@
 <?php
-    $main_menu_file = '../nav.inc';
-    include '../theme/template-header.inc';
+    $title = 'promsns def/';
+    $root_path = '../';
+    include $root_path . 'theme/header.inc';
 ?>
 
-<h1>PROMS <tt>def</tt> Register</h1>
+<h1>PROMS <code>def</code> Register</h1>
+<p>This page lists a series of definitional <a href="https://www.w3.org/standards/semanticweb/">Semantic Web</a> resources - mostly <a href="https://www.w3.org/TR/owl2-overview/">Web Ontology Language (OWL)</a> ontologies. Some are defined within this <code>promsns.org</code> namespace, others elsewhere but have been worked on by promsns.org contributors.</p>
+<h2>PROMS ontologies</h2>
 <ul>
   <li>
     <a href="http://promsns.org/def/agr">Agreements ontology</a>
@@ -31,7 +34,7 @@
   </li>
   <li>
     <a href="http://promsns.org/def/rel">Relatives ontology</a>
-    <ul><li>A standard take on relations between people (parte/child/grandparent) for teaching OWL modelling.</a>.</li></ul>
+    <ul><li>A standard take on relations between people (parte/child/grandparent) for teaching OWL modelling.</li></ul>
   </li>
   <li>
     <a href="http://purl.org/storagesys">Storage Systems ontology</a>
@@ -43,7 +46,7 @@
 <ul>
   <li>
     <a href="http://promsns.org/def/fsdf">FSDF ontology</a>
-    <ul><li>An in-development ontology for defining relationships between <a href="http://www.anzlic.gov.au/foundation-spatial-data-framework">Foundational Spatial Data Framework</a> Linked Data datasets. This ontology is only temporarily hosted using a <tt>promsns</tt> namespace while in development.</li></ul>
+    <ul><li>An in-development ontology for defining relationships between <a href="http://www.anzlic.gov.au/foundation-spatial-data-framework">Foundational Spatial Data Framework</a> Linked Data datasets. This ontology is only temporarily hosted using a <code>promsns.org</code> namespace while in development.</li></ul>
   </li>
   <li>
     <a href="http://gnafld.net/def/gnaf">GNAF ontology</a>
@@ -63,4 +66,4 @@
   </li>
 </ul>
 
-<?php include '../theme/template-footer.inc'; ?>
+<?php include $root_path . 'theme/footer.inc'; ?>

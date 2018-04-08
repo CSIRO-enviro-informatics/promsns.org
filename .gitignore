@@ -1,2 +1,8 @@
+# Mac
+.DS_Store
+
 # ontologies
 def/*/*
+
+# JetBrains
+.idea/
