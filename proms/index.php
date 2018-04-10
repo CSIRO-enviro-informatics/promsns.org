@@ -10,6 +10,16 @@
     <li><a href="https://promsns.org/wiki/proms">All about PROMS - the PROMS wiki</a></li>
 </ul>
 
+<h2>PROMS Server</h2>
+<p>PROMS Server is a web API that is used to control provenance data sent to a graph database. The souce code for PROMS is available here:</p>
+<table>
+    <tr>
+        <td><img src="PROMS-logo.png" title="PROMS logo" style="width:100px;"/></td>
+        <td style="width:50px;">&nbsp;</td>
+        <td><a href="https://promsns.org//repo/proms-server">PROMS Server code in CSIRO's BitBucket</a></td>
+    </tr>
+</table>
+
 <h2>PROMS instances</h2>
 <p>Here are some publicly visible instances of PROMS:</p>
 <table>
@@ -29,15 +39,13 @@
 <p>Here are some additional tools that have been developed to assist with the use of PROMS:</p>
 <table>
     <tr>
-        <tr>
-            <td><a href="https://promsns.org//repo/proms-reporter-python">PROMS Reporter Python</a> - a Python client for reporting to PROMS</td>
-        </tr>
-        <tr>
-            <td><a href="https://promsns.org//repo/proms-reporter-java">PROMS Reporter Java</a> - a Java client for reporting to PROMS</td>
-        </tr>
-        <tr>
-            <td><a href="https://promsns.org//repo/proms-reporter-dotnet">PROMS Reporter .NET</a> - a .NET client for reporting to PROMS</td>
-        </tr>
+        <td><a href="https://promsns.org//repo/proms-reporter-python">PROMS Reporter Python</a> - a Python client for reporting to PROMS</td>
+    </tr>
+    <tr>
+        <td><a href="https://promsns.org//repo/proms-reporter-java">PROMS Reporter Java</a> - a Java client for reporting to PROMS</td>
+    </tr>
+    <tr>
+        <td><a href="https://promsns.org//repo/proms-reporter-dotnet">PROMS Reporter .NET</a> - a .NET client for reporting to PROMS</td>
     </tr>
 </table>
 

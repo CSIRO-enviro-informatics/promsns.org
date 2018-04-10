@@ -17,27 +17,19 @@
     <ul>
           <li>The definition of "provenance" we use <a href="http://en.wikipedia.org/wiki/Provenance#Computer_science">is on wikipedia</a></li>
           <li><a href="https://promsns.org/wiki/proms">All about PROMS - the PROMS wiki</a></li>
-          <li><a href="/def/proms">The PROMS Ontology definition</a></li>
-          <li>The PROMS Ontology namespace: <code style="font-size: 1.5em;"><a href="/def/proms#">http://promsns.org/def/proms#</a></code> (note: this is the same as the ontology location)</li>
+          <li><a href="https://promsns.org/def/proms">The PROMS Ontology definition</a></li>
+          <li>The PROMS Ontology namespace: <code><a href="https://promsns.org/def/proms#">http://promsns.org/def/proms#</a></code>
+              <ul><li>note: this is the same as the ontology location</li></ul></li>
     </ul>
 
-    <h3>PROMS code</h3>
-    <ul>
-          <li><a href="https://promsns.org//repo/proms-server">PROMS Server code</a> - a redirect to the Git repository containing PROMS Server's code base</li>
-          <li><a href="https://promsns.org//repo/proms-reporter-python">PROMS Reporter Python code</a> - the generic PROMS-O reporting toolkit in Python</li>
-          <li><a href="https://promsns.org//repo/proms-reporter-java">PROMS Reporter Java code</a> - the generic PROMS-O reporting toolkit in </li>
-          <li><a href="https://promsns.org//repo/proms-reporter-dotnet">PROMS Reporter .NET code</a> - the generic PROMS-O reporting toolkit in </li>
-          <li><a href="https://promsns.org//repo/proms-pingbacks-message-generator">PROMS Pingbacks message generator</a> - a small Python toolkit that can generate <a href="http://www.w3.org/TR/prov-aq/">PROV-AQ</a> provenance pingback message and PROMS pingback message</li>
-    </ul>
+    <h3>PROMS tools</h3>
+    <p>See the <a href="proms">PROvenance Management System page</a> for information about the PROMS family of tools</p>
 
-    <h3>Other code</h3>
+    <h3>Other Provenance tools</h3>
     <ul>
-          <li><a href="/repo/prov-svg">PROV SVG</a> - a tiny PROV data nodes and edges graph SVG visualiser</li>
-    </ul>
-
-    <h3>Online tools</h3>
-    <ul>
-          <li><a href="http://validator.promsns.org">Pingbacks message validator</a> - a stand-alone PROV-AQ pingbacks message validator</li>
+        <li><a href="https://show.promsns.org">PROV Show</a><ul><li>a web application that makes visualisation of <a href="https://www.w3.org/RDF/">RDF</a> graphs that implement the <a href="https://www.w3.org/TR/prov-o/">PROV-O provenance ontology</a>.</li></ul></li>
+        <li><a href="https://validator.promsns.org">Pingbacks message validator</a> - a stand-alone PROV-AQ pingbacks message validator</li>
+        <li><a href="https://bitbucket.csiro.au/projects/EIS/repos/proms_pingbacks_generator">PROMS Pingbacks message generator</a> - a small Python toolkit that can generate <a href="http://www.w3.org/TR/prov-aq/">PROV-AQ</a> provenance pingback message and PROMS pingback message</li>
     <!--<li><a href="/eg/entity-server">Pingbacks Entity Server</a> - a dummy Linked Data 'Entity' server (as in prov:Entity) that delivers a list of dcat:Datasets with metadata allowing the testing of pingbacks.There is no dataset content and responses to pingbacks from the server are dummies - no pingback information is ingested.</li>-->
           <!--<li><a href="/uc">Provenance Use Cases</a> - initially from the eResearch 2014 conference. These can be added to online</li>-->
     </ul>
